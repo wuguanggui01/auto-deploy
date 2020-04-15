@@ -1,0 +1,49 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": false,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  // "extends": "airbnb",
+  "plugins": ["babel"],
+  "rules": {
+    // "react-hooks/rules-of-hooks": "error", // 检查 Hook 的规则
+    // "react-hooks/exhaustive-deps": "warn", // 检查 effect 的依赖
+    "semi": [0],
+    "react/jsx-filename-extension": [0],
+    "jsx-a11y/anchor-is-valid": [0],
+    "comma-dangle": [2, "never"],
+    "no-underscore-dangle": 0,
+    "class-methods-use-this": 0,
+    "no-use-before-define": 0,
+    "no-restricted-syntax": 0,
+    "no-param-reassign": 0,
+    "no-case-declarations": 0,
+    "react/jsx-no-bind": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "linebreak-style": [0, "error", "windows"],
+    "max-len": 0,
+    "no-array-index-key": 0,
+    "react/no-danger": "off",
+    "no-nested-ternary": 0,
+    "no-restricted-globals": 0,
+    "react/jsx-props-no-spreading": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "no-unused-expressions": "off",
+    "import/no-unresolved": "off",
+    "react/prop-types": "off",
+    "no-template-curly-in-string": "off",
+    "no-plusplus": "off"
+  },
+  "globals": {
+    // "React": true
+  }
+}
